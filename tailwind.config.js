@@ -6,15 +6,26 @@ export default {
 
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+     'md': '768px',
+    'lg': '1024px',
+
+      'l': '1280px',
+       'xl':'1440px',
+       'xxl':'1920px',
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+
+
+
+
     extend: {
-      breakpoints: {
-        sm: '640px',
-        md: '768px',
-        lg: '1280px', // Set the lg breakpoint to 1280px
-        xl: '1440px', // Add a new xl breakpoint at 1440px
-        '2xl': '1920px', // Add a new 2xl breakpoint at 1920px
-      },
-  
+      width: {
+        '480': '30.00rem',
+      }
 
     },
   },

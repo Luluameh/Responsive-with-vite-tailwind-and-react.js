@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
             <Sidenav/>
                 <div className='grow'>
                   <Header/>
-                    <div className='m-5'>{children}</div>
+                    <div className='m-4'>{children}</div>
                 </div>
             </div>
         </>
