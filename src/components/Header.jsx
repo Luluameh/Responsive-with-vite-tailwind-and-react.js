@@ -65,7 +65,7 @@ Power View
 </span>
     </div>
     <div className='flex items-center'>
-    <img src={Plus} alt="plus-sign" />
+    <img src={pls} alt="plus-sign" />
     </div>
 </div>
 </div>

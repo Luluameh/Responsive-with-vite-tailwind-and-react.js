@@ -1,6 +1,4 @@
 import React from 'react'
-import Sidenav from '../components/Sidenav'
-import Features from '../Container/Features'
 
 
 const Dashboard = () => {
