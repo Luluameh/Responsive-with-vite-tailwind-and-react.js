@@ -5,7 +5,7 @@ import users from '../assets/small-icons/users.png';
 import board from '../assets/small-icons/board.png';
 import list from '../assets/small-icons/list.png';
 import power from '../assets/small-icons/power.png';
-import Plus from '../assets/small-icons/plus.png';
+import plus from '/assets/small-icons/plus.png';
 
 
 const Header = () => {
