@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiOutlineBell, HiOutlineSearch, HiOutlineChatAlt } from 'react-icons/hi';
 import Profile from '../assets/small-icons/Profile.png';
 import users from '../assets/small-icons/users.png';
 import board from '../assets/small-icons/board.png';
