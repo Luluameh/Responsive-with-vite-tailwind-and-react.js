@@ -1,9 +1,12 @@
 import React from 'react'
+import Features from '../Container/Features'
+import Cards from '../Container/Cards'
 
 const Home = () => {
   return (
-    <div className=''>
-      hhhhhhhhhh
+    <div className=' '>
+<Features/>
+<Cards/>
     </div>
   )
 }

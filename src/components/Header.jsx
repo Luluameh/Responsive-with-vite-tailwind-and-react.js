@@ -10,7 +10,7 @@ import pls from '../assets/small-icons/pls.png';
 const Header = () => {
   return (
     <>
-<div className="2xl:container 2xl:mx-auto">
+<div className="2xl:container 2xl:mx-auto mb-12">
             <div className="bg-white rounded shadow-sm py-8 px-7">
                 <nav className="flex justify-between">
                     <div className="flex items-center space-x-3 lg:pr-16 pr-6">

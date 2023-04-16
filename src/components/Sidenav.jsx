@@ -11,8 +11,8 @@ import activites from '../assets/sidenav-icons/activites.png';
 
 export default function Sidenav() {
     return (
-        <div className="flex min-w-210">
-            <div className="flex flex-col h-screen p-6 bg-[#1D1042] shadow  w-50  ">
+        
+            <div className="flex flex-col  p-4 bg-[#1D1042] shadow w-60  ">
                 <div className="space-y-3 ">
                     <div className="flex items-center">
 						<button className="bg-[#45269C] rounded-md p-1  flex items-center">
@@ -79,7 +79,7 @@ export default function Sidenav() {
                                     <span className="text-gray-100">Affiliate</span>
                                 </a>
                             </li>
-                            <li class="border-t border-gray-500 pt-2"></li>
+                            <li className="border-t border-gray-500 pt-2"></li>
 
                             <li className="rounded-sm">
                                 <a
@@ -113,6 +113,6 @@ export default function Sidenav() {
 </a>
 				</div>
             </div>
-        </div>
+        
     );
 }
