@@ -1,34 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      'sm': '640px',
-     'md': '768px',
-    'lg': '1024px',
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
 
-      'l': '1280px',
-       'xl':'1440px',
-       'xxl':'1920px',
+      l: "1280px",
+      xl: "1440px",
+      xxl: "1920px",
 
-      '2xl': '1536px',
+      "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
 
-
-
-
     extend: {
       width: {
-        '480': '30.00rem',
-      }
-
+        480: "30.00rem",
+        448: "28rem",
+      },
     },
   },
   plugins: [],
-}
-
+};
