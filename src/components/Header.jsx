@@ -9,7 +9,7 @@ import pls from "../assets/small-icons/pls.png";
 const Header = () => {
   return (
     <>
-      <div className=" bg-white rounded shadow-sm m-auto">
+      <div className=" l:ml-[15%] bg-white rounded shadow-sm m-auto">
         <div className="flex p-8 justify-between ml-16 mr-16">
           <div>
             <h1 className="font-bold  l:font-2xl xl:font-4xl xxl:font-5xl">
@@ -21,10 +21,10 @@ const Header = () => {
           </div>
           <div
             className="
-     l:mr-32  xl:mr-44 xxl:mr-72
+       xl:mr-44 xxl:mr-72
      "
           >
-            <button className="font-normal  font-inter   text-white bg-black  p-1 gap-2  rounded-md text-sm ">
+            <button className="l: font-normal  font-inter   text-white bg-black  p-1 gap-2  rounded-md text-sm ">
               ADD MEMBER
             </button>
           </div>

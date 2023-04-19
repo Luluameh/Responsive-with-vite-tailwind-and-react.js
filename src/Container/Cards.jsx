@@ -1,4 +1,6 @@
 import React from "react";
+import Features from "./Features";
+
 
 const Cards = ({
   //the props
@@ -19,6 +21,10 @@ const Cards = ({
 }) => {
   return (
     <div className=" h-fit ">
+<div>
+  
+</div>
+
       <div className="w-72 rounded-lg shadow-md flex flex-col m-2 bg-white ">
         {imagePath && imgAlt && (
           <img
@@ -28,18 +34,27 @@ const Cards = ({
           />
         )}
         <div className="p-4">
-          <h3 className="m-2 text-lg font-bold text-gray-800 card-title">
-            {title}
-          </h3>
           <div className="flex justify-between">
-            <p className=" text-base text-gray-600 card-description">
-              {description}
-            </p>
-            <img src={img} alt="the three horizontal dots" className="h-4" />
+            <h3 className="m-1 text-lg font-bold text-gray-800 card-title">
+              {title}
+            </h3>
+            <img
+              src={img}
+              alt="the three horizontal dots"
+              className="h-4 mt-2"
+            />
           </div>
+          <p className=" text-base text-gray-600 card-description">
+            {description}
+          </p>
+
           <div className="flex justify-between">
             <div className="flex">
-              <img src={listpic} alt="HORIZONTAL LINK LINE" />
+              <img
+                src={listpic}
+                alt="HORIZONTAL LINK LINE"
+                className="h-4 mt-2"
+              />
               <span>{infor} </span>
             </div>
             <div className="">
