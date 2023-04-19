@@ -57,7 +57,7 @@ const Cards = ({
               </div>
             </div>
             <div>
-              <img src={profile} alt="" />
+              <img src={profile} alt="min profile" />
             </div>
           </div>
         </div>
