@@ -19,13 +19,17 @@ import pls from "../assets/small-icons/pls.png";
 
 const Home = () => {
   return ( 
-    <div className="w-full 
+    <div className="w-full  
     ">
-      <div className="flex flex-col lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
-      <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
-      <Features  pTag='TO DO' number='3'/>
+      <div className="flex    flex-col md:flex-1 lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
+     
+      <div className="w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+
+     
+      <Features  pTag='TO DO' number='3' />
 
           {/**pic card */}
+
           <Cards
             imagePath={pic2}
             imgAlt="card-image"
@@ -82,7 +86,7 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1 ">
         <Features  pTag='TO DO' number='2'/>
 
          

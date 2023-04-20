@@ -10,7 +10,7 @@ import activites from "../assets/sidenav-icons/activites.png";
 
 export default function Sidenav() {
   return (
-    <div className="l:fixed l:w-[14.5rem] l:p-[30px] flex flex-col  p-5 bg-[#1D1042] shadow  h-full">
+    <div className="l:fixed  md:w-[9rem] l:w-[14.5rem] l:p-[30px] flex flex-col  p-5 bg-[#1D1042] shadow  h-full">
       <div className="space-y-3 ">
         <div className="flex items-center">
           <button className="l:p-4 bg-[#45269C] rounded-md flex items-center">
@@ -104,7 +104,7 @@ export default function Sidenav() {
       <div className="flex  cursor-pointer my-5 mb-15 gap-2 p-2 items-center bg-[#703EFE] mt-auto rounded-lg shadow-lg mx-2">
         <a href="#" className="flex items-center">
           <img src={plus} alt="new project-icon" className="mr-2" />
-          <span className="text-gray-100 font-sm font-inter"> New Project</span>
+          <span className="text-gray-100 font-sm md:text-xs font-inter"> New Project</span>
         </a>
       </div>
     </div>
