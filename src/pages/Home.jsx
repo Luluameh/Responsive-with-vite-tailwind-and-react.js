@@ -18,11 +18,12 @@ import pic3 from "../assets/images/pic3.png";
 import pls from "../assets/small-icons/pls.png";
 
 const Home = () => {
-  return (
-    <div className="">
+  return ( 
+    <div className="w-full 
+    ">
       <Features />
-      <div className="l:ml-[20%] h-screen flex">
-        <div className="l:mr-[15px] h-full flex flex-col items-start">
+      <div className="flex  h-auto fixed  l:ml-[20%] h-auto fixed gap-1 xl:ml-[20%] h-auto fixed gap-24 xxl:  ">
+        <div className="l: w-1/2 h-full flex flex-col items-start">
           {/**pic card */}
           <Cards
             imagePath={pic2}
@@ -60,7 +61,7 @@ const Home = () => {
           <Button Plus={pls} link="ADD TASK" />
         </div>
 
-        <div className="l:mr-[10px] h-full flex flex-col items-start">
+        <div className="l: w-1/2 h-full flex flex-col items-start">
           <Cards
             imagePath={pic}
             imgAlt="Card-image"
@@ -79,7 +80,7 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-        <div className="h-full flex flex-col items-start">
+        <div className="h-full w-1/2 flex flex-col items-start pb-10">
           <Cards
             imgAlt="no-image"
             title="Usability testing"

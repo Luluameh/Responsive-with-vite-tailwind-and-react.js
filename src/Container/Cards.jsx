@@ -20,7 +20,7 @@ const Cards = ({
   number,
 }) => {
   return (
-    <div className=" h-fit ">
+    <div className=" h-fit  ">
 <div>
   
 </div>

@@ -9,7 +9,7 @@ import pls from "../assets/small-icons/pls.png";
 const Header = () => {
   return (
     <>
-      <div className=" l:ml-[15%] bg-white rounded shadow-sm m-auto">
+      <div className=" l:ml-[15%] bg-white rounded shadow-sm m-auto  xxl:ml-[10%]">
         <div className="flex p-8 justify-between ml-16 mr-16">
           <div>
             <h1 className="font-bold  l:font-2xl xl:font-4xl xxl:font-5xl">
