@@ -25,12 +25,12 @@ const Cards = ({
   
 </div>
 
-      <div className="w-72 rounded-lg shadow-md flex flex-col m-2 bg-white ">
+      <div className="w-72 rounded-lg shadow-md flex flex-col m-2 bg-white l:w-72 xl:w-80 xxl:w-[30rem] ">
         {imagePath && imgAlt && (
           <img
             src={imagePath}
             alt={imgAlt}
-            className="w-auto h-62 p-2 l:h-32 w-60 xxl:w-96"
+            className="w-auto h-62 p-2 l:h-32 w-60 xxl:w-full"
           />
         )}
         <div className="p-4">

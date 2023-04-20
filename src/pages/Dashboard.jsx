@@ -23,10 +23,9 @@ const Dashboard = () => {
     <div>
     <div className="w-full">
       <Features/>
-      <div className="l:ml-[20%] h-screen flex">
-        <div className="l:mr-[15px] w-1/2 h-full flex flex-col items-start">
-
-        <Cards
+      <div className="flex flex-col lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:gap-24">
+      <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+       <Cards
             imagePath={pic3}
             imgAlt="card-image"
             title="Highfidelity Design"
@@ -62,7 +61,8 @@ const Dashboard = () => {
 
 
         </div>
-        <div className="l:mr-[10px] w-1/2 h-full flex flex-col items-start">
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+
         <Cards
             imagePath={pic3}
             imgAlt="card-image"
@@ -99,6 +99,48 @@ const Dashboard = () => {
 
 
         </div>
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+
+        <Cards
+            imagePath={pic3}
+            imgAlt="card-image"
+            title="Highfidelity Design"
+            description="Make clear design and color"
+            img={dot}
+            listpic={List}
+            infor="progress"
+            figure="2/10"
+            linepic={Slider3}
+            message={chati}
+            pic={Link}
+            number="7"
+            digit="2"
+            profile={Profile}
+          />
+        <Cards
+            imagePath={pic3}
+            imgAlt="card-image"
+            title="Highfidelity Design"
+            description="Make clear design and color"
+            img={dot}
+            listpic={List}
+            infor="progress"
+            figure="2/10"
+            linepic={Slider3}
+            message={chati}
+            pic={Link}
+            number="7"
+            digit="2"
+            profile={Profile}
+          />
+
+
+
+        </div>
+
+
+
+
       </div>
     </div>
 

@@ -4,7 +4,7 @@ const Features = ({ pTag, number }) => {
   return (
     <>
       <div className="l:ml-[20%]  ml-16 mr-16">
-        <div className="flex gap-20 l:gap-10 xl:gap-24 xxl:gap-24 w-full px-4 pt-3 pb-4">
+        <div className="flex gap-20 l:gap-10 xl:gap-24 xxl: w-full px-4 pt-3 pb-4">
           <div className="flex gap-5 bg-[#F4F6F8] rounded-md p-3 w-full l:w-72  xl:w-80 xxl:w-[30.00rem]">
             <p>To Do</p>
             <span className="bg-black text-white p-2 pb-0 pt-0 rounded-md ml-auto">

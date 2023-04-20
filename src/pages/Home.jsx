@@ -22,8 +22,9 @@ const Home = () => {
     <div className="w-full 
     ">
       <Features />
-      <div className="flex  h-auto fixed  l:ml-[20%] h-auto fixed gap-0 xl:ml-[20%] h-auto fixed gap-24 xxl:  ">
-        <div className="l: w-1/2 h-full flex flex-col items-start">
+      <div className="flex flex-col lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:gap-24">
+      <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+
           {/**pic card */}
           <Cards
             imagePath={pic2}
@@ -60,9 +61,8 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-
-        <div className="l: w-1/2 h-full flex flex-col items-start">
-          <Cards
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
+        <Cards
             imagePath={pic}
             imgAlt="Card-image"
             title="Highfidelity Design"
@@ -80,7 +80,7 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-        <div className="h-full w-1/2 flex flex-col items-start pb-10">
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
           <Cards
             imgAlt="no-image"
             title="Usability testing"
