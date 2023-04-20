@@ -13,7 +13,12 @@ Despite the challenges faced during the internship test, I gained a lot of exper
 Overall, the internship test was a great experience, and I am grateful for the opportunity to participate in it. I believe that the skills and knowledge gained will be useful in my future career as a software developer.
 Thank you NUPAT technology for this
 
-
+About the code
+In this code i tried to implement a pixel perfect of the Homepage and also made it responsive to some certain screen sizes and i also configure my tailwind config to fit my desirable screen sizes.
+the code contain a Side navbar that is fixed
+and a header also
+ with three cards and button and also a place for 'Add Todo' 
+ it also has routes which are currently not leading to any pages for the main time in due time it will be fixed.
 
 
 

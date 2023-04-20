@@ -27,7 +27,7 @@ export default function Sidenav() {
           <ul className="pt-2 pb-4 space-y-1 text-sm items-center">
             <li className="rounded-sm cursor-pointer">
               <a
-                href="/dashboard"
+                href="#"
                 className="flex items-center p-1 space-x-3 rounded-md"
               >
                 <img src={dashboard} alt="dashboard-icons" />
