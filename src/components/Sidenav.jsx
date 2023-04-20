@@ -10,7 +10,8 @@ import activites from "../assets/sidenav-icons/activites.png";
 
 export default function Sidenav() {
   return (
-    <div className="l:fixed  md:w-[9rem] l:w-[14.5rem] l:p-[30px] flex flex-col  p-5 bg-[#1D1042] shadow max-h-full  h-full">
+    <div className="l:fixed  md:w-[9rem] l:w-[14.5rem] l:p-[30px] flex flex-col  p-5 bg-[#1D1042] 
+    shadow   h-full">
       <div className="space-y-3 ">
         <div className="flex items-center">
           <button className="l:p-4 bg-[#45269C] rounded-md flex items-center">
