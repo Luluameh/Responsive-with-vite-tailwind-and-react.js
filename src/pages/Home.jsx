@@ -18,18 +18,16 @@ import pic3 from "../assets/images/pic3.png";
 import pls from "../assets/small-icons/pls.png";
 
 const Home = () => {
-  return ( 
-    <div className="w-full  
-    ">
-      <div className="flex    flex-col md:flex-1 lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
-     
-      <div className="w-full sm:w-full md:w-full lg:w-1/2 xl:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
-
-     
-      <Features  pTag='TO DO' number='3' />
+  return (
+    <div
+      className="w-full  
+    "
+    >
+      <div className="flex flex-col  m-aut0   md: flex flex-col m-auto lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-2">
+          <Features pTag="TO DO" number="3" />
 
           {/**pic card */}
-
           <Cards
             imagePath={pic2}
             imgAlt="card-image"
@@ -65,10 +63,10 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
-        <Features  pTag='TO DO' number='1'/>
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-3">
+          <Features pTag="TO DO" number="1" />
 
-        <Cards
+          <Cards
             imagePath={pic}
             imgAlt="Card-image"
             title="Highfidelity Design"
@@ -86,10 +84,9 @@ const Home = () => {
           />
           <Button Plus={pls} link="ADD TASK" />
         </div>
-        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1 ">
-        <Features  pTag='TO DO' number='2'/>
+        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-3 ">
+          <Features pTag="TO DO" number="2" />
 
-         
           <Cards
             imgAlt="no-image"
             title="Usability testing"
