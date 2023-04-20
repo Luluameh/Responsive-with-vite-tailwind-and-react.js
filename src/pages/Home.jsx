@@ -66,7 +66,7 @@ const Home = () => {
           <Button Plus={pls} link="ADD TASK" />
         </div>
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-3">
-          <Features pTag="TO DO" number="1" />
+          <Features pTag="Inprogress" number="1" />
 
           <Cards
             imagePath={pic}
@@ -87,7 +87,7 @@ const Home = () => {
           <Button Plus={pls} link="ADD TASK" />
         </div>
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-3 ">
-          <Features pTag="TO DO" number="2" />
+          <Features pTag="Completed" number="2" />
 
           <Cards
             imgAlt="no-image"
