@@ -22,7 +22,7 @@ const Home = () => {
     <div className="w-full 
     ">
       <Features />
-      <div className="flex  h-auto fixed  l:ml-[20%] h-auto fixed gap-1 xl:ml-[20%] h-auto fixed gap-24 xxl:  ">
+      <div className="flex  h-auto fixed  l:ml-[20%] h-auto fixed gap-0 xl:ml-[20%] h-auto fixed gap-24 xxl:  ">
         <div className="l: w-1/2 h-full flex flex-col items-start">
           {/**pic card */}
           <Cards
