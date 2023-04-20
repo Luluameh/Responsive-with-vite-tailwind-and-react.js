@@ -21,11 +21,7 @@ const Cards = ({
 }) => {
   return (
     <div className=" h-fit  ">
-<div>
-  
-</div>
-
-      <div className="w-72 rounded-lg shadow-md flex flex-col m-2 bg-white l:w-72 xl:w-80 xxl:w-[26rem] ">
+ <div className="w-72 rounded-lg shadow-md flex flex-col m-2 bg-white l:w-72 xl:w-80 xxl:w-[26rem] ">
         {imagePath && imgAlt && (
           <img
             src={imagePath}
