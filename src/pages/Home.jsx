@@ -16,7 +16,6 @@ import chati from "../assets/images/chati.png";
 import List from "../assets/images/List.png";
 import pic3 from "../assets/images/pic3.png";
 import pls from "../assets/small-icons/pls.png";
-import Car from "../Container/Car";
 
 const Home = () => {
   return (
