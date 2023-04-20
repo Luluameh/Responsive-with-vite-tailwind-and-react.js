@@ -21,7 +21,16 @@ const Cards = ({
 }) => {
   return (
     <div className="  ">
- <div className="w-72 rounded-lg shadow-md sm:max-w-xs md:max-w-sm md:m-auto flex flex-col m-2 bg-white l:w-72 xl:w-80 xxl:w-[26rem] ">
+ <div className="
+ w-72 rounded-lg shadow-md
+ sm:ml-20
+  md:ml-auto
+  
+  flex flex-col m-2 bg-white
+  l:w-72 xl:w-80 xxl:w-[26rem] 
+  ">
+       
+       
         {imagePath && imgAlt && (
           <img
             src={imagePath}

@@ -16,6 +16,7 @@ import chati from "../assets/images/chati.png";
 import List from "../assets/images/List.png";
 import pic3 from "../assets/images/pic3.png";
 import pls from "../assets/small-icons/pls.png";
+import Car from "../Container/Car";
 
 const Home = () => {
   return (
@@ -23,8 +24,10 @@ const Home = () => {
       className="w-full  
     "
     >
-      <div className="flex flex-col  m-aut0   md: flex flex-col m-auto lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
-        <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-2">
+
+
+      <div className="flex flex-col  m-aut0   md: flex flex-row m-auto lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:">
+        <div className="w-full md:w-1/3 flex flex-col items-start gap-4 lg:gap-2">
           <Features pTag="TO DO" number="3" />
 
           {/**pic card */}
