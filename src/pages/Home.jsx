@@ -28,7 +28,7 @@ const Home = () => {
     >
 
 
-      <div className="flex flex-col  m-aut0  md:flex-col m-auto lg:flex-row mx-4- l:mx-[20%] xl:mx-[20%] xxl:">
+      <div className="flex flex-col  gap-20  m-aut0  md:flex-col m-auto lg:flex-row mx-4- l:mx-[20%] xl:mx-[20%] xxl:">
         <div className="w-full md:w-1/3 gap-4  flex flex-col items-start gap-4 lg:gap-2">
           <Features pTag="TO DO" number="3" />
 
