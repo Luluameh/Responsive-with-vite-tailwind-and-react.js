@@ -21,14 +21,14 @@ const Home = () => {
   return (
     <div
        
-      className="w-full flex  sm:bg-red-400 md:bg-green-900 mx-auto  lg:bg-yellow-300 l:bg-purple-500 xl:bg-orange-200 xxl:bg-gray-700
+      className="w-full flex  
 
 
     "
     >
 
 
-      <div className="flex flex-col  m-aut0  md:flex-row m-auto lg:flex-row mx-4- l:mx-[20%] xl:mx-[20%] xxl:">
+      <div className="flex flex-col  m-aut0  md:flex-col m-auto lg:flex-row mx-4- l:mx-[20%] xl:mx-[20%] xxl:">
         <div className="w-full md:w-1/3 gap-4  flex flex-col items-start gap-4 lg:gap-2">
           <Features pTag="TO DO" number="3" />
 
