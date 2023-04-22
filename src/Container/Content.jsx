@@ -19,9 +19,7 @@ import pls from "../assets/small-icons/pls.png";
 
 const Home = () => {
   return (
-    <div className="flex-grow p-6 mx-8  
-    bg-[#FCFBFC]
-    ">
+    <div className="flex-grow p-6 lg:mx-8 sm:mx-2   bg-[#FCFBFC] ">
       <div className="flex flex-col  md:flex-row  lg:flex-row xxl:">
         <div className="w-full md:w-1/2 gap-4  flex flex-col items-start gap-4 lg:gap-2">
           <Todo pTag="TO DO" number="3" />
