@@ -1,6 +1,5 @@
 import React from "react";
-import Features from "./Features";
-
+import Todo from "./Todo";
 
 const Cards = ({
   //the props
@@ -21,16 +20,16 @@ const Cards = ({
 }) => {
   return (
     <div className="  ">
- <div className="
+      <div
+        className="
  w-72 rounded-lg shadow-md
  sm:ml-20
   md:ml-auto
   
  m-2 bg-white
   l:w-72 xl:w-80 xxl:w-[26rem] h-[px]
-  ">
-       
-       
+  "
+      >
         {imagePath && imgAlt && (
           <img
             src={imagePath}
