@@ -23,7 +23,7 @@ const Header = () => {
           ADD MEMBER
         </button>
       </div>
-      <div className="flex justify-between text-gray-500 text-xs mt-4 md:mt-6">
+      <div className="flex justify-between text-gray-500 text-xs mt-4 md:mt-6 mx-52">
         <div className="flex items-center">
           <img src={Profile} alt="the profile" className="h-4 md:h-6" />
           <span className="text-sm ml-1 md:ml-2">8 members</span>

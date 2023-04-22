@@ -24,7 +24,7 @@ const Dashboard = () => {
 
     <div className="w-full">
       <Features/>
-      <div className="flex flex-col  md:flex-col lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:gap-24">
+      <div className="flex flex-col  md:flex-row lg:flex-row l:ml-[20%] xl:ml-[20%] xxl:gap-24">
       <div className="w-full lg:w-1/2 flex flex-col items-start gap-4 lg:gap-1">
        <Cards
             imagePath={pic3}
