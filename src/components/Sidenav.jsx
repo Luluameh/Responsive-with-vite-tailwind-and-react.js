@@ -67,7 +67,7 @@ export default function Sidenav() {
       <div
         className={`${showMenu ? "fixed" : "hidden"} lg:block 
         bg-[#1D1042]
-        min-h-fit w-48 flex flex-col items-center py-4 shadow`}
+        min-h-screen w-48 flex flex-col items-center py-4 shadow`}
       >
         <div className="">
           <button className=" p-2   l:p-4 bg-[#45269C] rounded-md flex items-center">
